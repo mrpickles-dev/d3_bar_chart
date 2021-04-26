@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+
+    
+}
+h1{
+    color:floralwhite;
+}
+svg{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.bar:hover{
+    fill:floralwhite;
+}
+
+div#tooltip {
+    font-size: 2em;
+    color: #fff;
+}
+
+rect.bar {
+    fill: teal;
+}
+
+text#title {
+    font-size: 1.5em;
+}
